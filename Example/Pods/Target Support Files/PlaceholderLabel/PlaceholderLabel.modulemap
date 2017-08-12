@@ -1,0 +1,6 @@
+framework module PlaceholderLabel {
+  umbrella header "PlaceholderLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

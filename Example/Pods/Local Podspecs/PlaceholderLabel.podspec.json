@@ -1,0 +1,22 @@
+{
+  "name": "PlaceholderLabel",
+  "version": "0.1.0",
+  "summary": "A short description of PlaceholderLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chiahan1123/PlaceholderLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chiahan1123": "eric.ch_chang@htc.com"
+  },
+  "source": {
+    "git": "https://github.com/chiahan1123/PlaceholderLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PlaceholderLabel/Classes/**/*"
+}
