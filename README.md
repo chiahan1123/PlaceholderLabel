@@ -1,9 +1,11 @@
-# PlaceholderLabel
-
 [![CI Status](http://img.shields.io/travis/chiahan1123/PlaceholderLabel.svg?style=flat)](https://travis-ci.org/chiahan1123/PlaceholderLabel)
 [![Version](https://img.shields.io/cocoapods/v/PlaceholderLabel.svg?style=flat)](http://cocoapods.org/pods/PlaceholderLabel)
 [![License](https://img.shields.io/cocoapods/l/PlaceholderLabel.svg?style=flat)](http://cocoapods.org/pods/PlaceholderLabel)
 [![Platform](https://img.shields.io/cocoapods/p/PlaceholderLabel.svg?style=flat)](http://cocoapods.org/pods/PlaceholderLabel)
+
+# PlaceholderLabel
+
+Gives UILabel options to set a placeholder text and placeholder text color.
 
 ## Example
 
@@ -17,12 +19,8 @@ PlaceholderLabel is available through [CocoaPods](http://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "PlaceholderLabel"
+pod 'PlaceholderLabel', '0.1.0'
 ```
-
-## Author
-
-chiahan1123, eric.ch_chang@htc.com
 
 ## License
 
