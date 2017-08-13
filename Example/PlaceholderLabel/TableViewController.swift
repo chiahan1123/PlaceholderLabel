@@ -8,8 +8,6 @@ class TableViewController: UITableViewController {
   @IBOutlet weak var genderLabel: PlaceholderLabel!
   @IBOutlet weak var birthdayLabel: PlaceholderLabel!
 
-  var label: PlaceholderLabel!
-
   override func viewDidLoad() {
     super.viewDidLoad()
     nameLabel.text = "Eric"
