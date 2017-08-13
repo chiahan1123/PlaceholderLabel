@@ -1,4 +1,4 @@
-[![CI Status](http://img.shields.io/travis/chiahan1123/PlaceholderLabel.svg?style=flat)](https://travis-ci.org/chiahan1123/PlaceholderLabel)
+[![Build Status](https://travis-ci.org/chiahan1123/PlaceholderLabel.svg?branch=master)](https://travis-ci.org/chiahan1123/PlaceholderLabel)
 [![Version](https://img.shields.io/cocoapods/v/PlaceholderLabel.svg?style=flat)](http://cocoapods.org/pods/PlaceholderLabel)
 [![License](https://img.shields.io/cocoapods/l/PlaceholderLabel.svg?style=flat)](http://cocoapods.org/pods/PlaceholderLabel)
 [![Platform](https://img.shields.io/cocoapods/p/PlaceholderLabel.svg?style=flat)](http://cocoapods.org/pods/PlaceholderLabel)
