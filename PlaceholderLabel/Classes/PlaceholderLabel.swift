@@ -2,6 +2,7 @@
 import UIKit
 
 /// An `UILabel` with placeholder support.
+@IBDesignable
 open class PlaceholderLabel: UILabel {
 
   @IBInspectable open var placeholder: String? {
@@ -67,6 +68,11 @@ open class PlaceholderLabel: UILabel {
     initView()
   }
 
+  override open func prepareForInterfaceBuilder() {
+    super.prepareForInterfaceBuilder()
+    initView()
+  }
+
   private func initView() {
     actualTextColor = textColor
     checkPlaceholder()
@@ -76,9 +82,9 @@ open class PlaceholderLabel: UILabel {
     if text?.isEmpty ?? true {
       blockText = true
       blockTextColor = true
+      isShowingPlaceholder = true
       text = placeholder
       textColor = placeholderColor ?? .gray
-      isShowingPlaceholder = true
     } else {
       isShowingPlaceholder = false
       textColor = actualTextColor
