@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PlaceholderLabel'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'UILabel with placeholder support.'
   s.description      = <<-DESC
 Gives UILabel options to set a placeholder text and placeholder text color. 
